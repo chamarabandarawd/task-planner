@@ -42,3 +42,40 @@ transition: 0.2s all;
     transform: scale(0.8);
 
 }
+.todos{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.todos_single{
+    display: flex;
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #f39c12;
+}
+.todos_single-text{
+    flex: 1;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.icon-main{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+
+@media(min-width:700px){
+    .todos{
+        width: 29.5%;
+    }
+}

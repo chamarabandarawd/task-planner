@@ -5,7 +5,7 @@
   align-items: center;
   background: linear-gradient(135deg,#2980b9,#2ecc71);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   font-family: "Roboto",cursive;
 }
